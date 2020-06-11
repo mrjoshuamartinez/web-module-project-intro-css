@@ -50,8 +50,9 @@ body {
 	background-color: black;
 }
 #container {
+	display: flex;
 	margin: 100px;
-	width: 600px;
+	width: auto;
 }
 header nav a.plan{
 	margin: 0 10px;
