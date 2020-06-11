@@ -48,7 +48,7 @@ body {
 	margin: 100px;
 	width: 600px;
 }
-header nav a.#plan{
+header nav a.plan{
 	margin: 0 10px;
 	padding: 20px;
 	display: inline-block;
@@ -58,7 +58,7 @@ header nav a.#plan{
 	margin-bottom: 20px;
 	background: #FF764E;
 }
-header nav a.#learn {
+header nav a.learn {
 	margin: 0 10px;
 	padding: 20px;
 	display: inline-block;
@@ -68,7 +68,7 @@ header nav a.#learn {
 	margin-bottom: 20px;
 	background: #5ED3EB;
 }
-header nav a.#involve {
+header nav a.involve {
 	margin: 0 10px;
 	padding: 20px;
 	display: inline-block;
