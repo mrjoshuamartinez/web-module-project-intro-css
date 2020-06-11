@@ -48,14 +48,33 @@ body {
 	margin: 100px;
 	width: 600px;
 }
-header nav a {
+header nav a #plan{
 	margin: 0 10px;
-	border: 1px solid lightgray;
 	padding: 20px;
 	display: inline-block;
 	border-radius: 20px;
 	color: white;
 	text-decoration: none;
 	margin-bottom: 20px;
-	background: blue;
+	background: #FF764E;
+}
+header nav a {
+	margin: 0 10px;
+	padding: 20px;
+	display: inline-block;
+	border-radius: 20px;
+	color: white;
+	text-decoration: none;
+	margin-bottom: 20px;
+	background: #5ED3EB;
+}
+header nav a {
+	margin: 0 10px;
+	padding: 20px;
+	display: inline-block;
+	border-radius: 20px;
+	color: white;
+	text-decoration: none;
+	margin-bottom: 20px;
+	background: #FFCD69;
 }
