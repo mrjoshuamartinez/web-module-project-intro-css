@@ -48,3 +48,14 @@ body {
 	margin: 100px;
 	width: 600px;
 }
+header nav a {
+	margin: 0 10px;
+	border: 1px solid lightgray;
+	padding: 20px;
+	display: inline-block;
+	border-radius: 20px;
+	color: white;
+	text-decoration: none;
+	margin-bottom: 20px;
+	background: blue;
+}
