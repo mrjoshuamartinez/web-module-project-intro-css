@@ -72,25 +72,10 @@ nav {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	height: auto;
+	height: 100px;
 }
 
-header nav a.plan:hover {
-	color: black;
-	text-decoration: underline;
-}
-
-header nav a.learn:hover {
-	color: black;
-	text-decoration: underline;
-}
-
-header nav a.involve:hover {
-	color: black;
-	text-decoration: underline;
-}
-
-header nav a.plan{
+header nav a.plan {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -105,11 +90,30 @@ header nav a.plan{
 	margin-bottom: 0px;
 	background: #FF764E;
 	font-family: 'Roboto Mono', monospace;
-	font-size: 20px;
+	font-size: 18px;
+}
+
+header nav a.plan:visited {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	width: 125px;
+	height: 20px;
+	margin: 0 10px;
+	padding: 20px;
+	border-radius: 15px;
+	color: white;
+	text-decoration: none;
+	margin-bottom: 0px;
+	background: #FF764E;
+	font-family: 'Roboto Mono', monospace;
+	font-size: 18px;
 }
 
 header nav a.learn {
 	display: flex;
+	flex-direction: row;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
@@ -123,7 +127,26 @@ header nav a.learn {
 	margin-bottom: 0px;
 	background: #5ED3EB;
 	font-family: 'Roboto Mono', monospace;
-	font-size: 20px;
+	font-size: 18px;
+}
+
+header nav a.learn:visited {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	width: 125px;
+	height: 20px;
+	margin: 0 10px;
+	padding: 20px;
+	border-radius: 15px;
+	color: white;
+	text-decoration: none;
+	margin-bottom: 0px;
+	background: #5ED3EB;
+	font-family: 'Roboto Mono', monospace;
+	font-size: 18px;
 }
 
 header nav a.involve {
@@ -141,6 +164,40 @@ header nav a.involve {
 	background: #FFCD69;
 	font-family: 'Roboto Mono', monospace;
 	font-size: 20px;
+}
+
+header nav a.involve:visited {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	width: 125px;
+	height: 20px;
+	margin: 0 10px;
+	padding: 20px;
+	border-radius: 15px;
+	color: white;
+	text-decoration: none;
+	margin-bottom: 0px;
+	background: #FFCD69;
+	font-family: 'Roboto Mono', monospace;
+	font-size: 20px;
+}
+
+
+header nav a.plan:hover {
+	color: black;
+	/*text-decoration: underline;*/
+}
+
+header nav a.learn:hover {
+	color: black;
+	/*text-decoration: underline;*/
+}
+
+header nav a.involve:hover {
+	color: black;
+	/*text-decoration: underline;*/
 }
 
 #header {
@@ -202,6 +259,10 @@ header nav a.involve {
 	color: white;
 }
 
+#bodyTop:hover {
+	color: black;
+}
+
 #bodyBottom {
 	display: flex;
 	flex-direction: column;
@@ -259,7 +320,25 @@ footer nav a.plan{
 	margin-bottom: 0px;
 	background: #FF764E;
 	font-family: 'Roboto Mono', monospace;
-	font-size: 20px;
+	font-size: 18px;
+}
+
+footer nav a.plan:visited {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	width: 125px;
+	height: 20px;
+	margin: 0 10px;
+	padding: 20px;
+	border-radius: 15px;
+	color: white;
+	text-decoration: none;
+	margin-bottom: 0px;
+	background: #FF764E;
+	font-family: 'Roboto Mono', monospace;
+	font-size: 18px;
 }
 
 footer nav a.learn {
@@ -277,7 +356,25 @@ footer nav a.learn {
 	margin-bottom: 0px;
 	background: #5ED3EB;
 	font-family: 'Roboto Mono', monospace;
-	font-size: 20px;
+	font-size: 18px;
+}
+
+footer nav a.learn:visited {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	width: 125px;
+	height: 20px;
+	margin: 0 10px;
+	padding: 20px;
+	border-radius: 15px;
+	color: white;
+	text-decoration: none;
+	margin-bottom: 0px;
+	background: #5ED3EB;
+	font-family: 'Roboto Mono', monospace;
+	font-size: 18px;
 }
 
 footer nav a.involve {
@@ -294,5 +391,39 @@ footer nav a.involve {
 	margin-bottom: 0px;
 	background: #FFCD69;
 	font-family: 'Roboto Mono', monospace;
-	font-size: 20px;
+	font-size: 18px;
+}
+
+footer nav a.involve:visited {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	width: 125px;
+	height: 20px;
+	margin: 0 10px;
+	padding: 20px;
+	border-radius: 15px;
+	color: white;
+	text-decoration: none;
+	margin-bottom: 0px;
+	background: #FFCD69;
+	font-family: 'Roboto Mono', monospace;
+	font-size: 18px;
+}
+
+
+footer nav a.plan:hover {
+	color: black;
+	/*text-decoration: underline;*/
+}
+
+footer nav a.learn:hover {
+	color: black;
+	/*text-decoration: underline;*/
+}
+
+footer nav a.involve:hover {
+	color: black;
+	/*text-decoration: underline;*/
 }
