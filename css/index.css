@@ -75,6 +75,21 @@ nav {
 	height: auto;
 }
 
+header nav a.plan:hover {
+	color: black;
+	text-decoration: underline;
+}
+
+header nav a.learn:hover {
+	color: black;
+	text-decoration: underline;
+}
+
+header nav a.involve:hover {
+	color: black;
+	text-decoration: underline;
+}
+
 header nav a.plan{
 	display: flex;
 	justify-content: center;
