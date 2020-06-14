@@ -47,40 +47,237 @@ table {
 
 
 body {
+	display: flex;
 	background-color: black;
 }
+
+h1 {
+	font-size: 50px;
+	font-family: 'Chelsea Market', cursive;
+}
+
 #container {
+	background-color: white;
+	margin-left: 200px;
+	margin-right: 200px;
+}
+
+#innerWrapper {
+	margin-top: 30px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+nav {
 	display: flex;
-	margin: 100px;
-	width: auto;
+	justify-content: space-around;
+	align-items: center;
+	height: auto;
 }
+
 header nav a.plan{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	width: 125px;
+	height: 20px;
 	margin: 0 10px;
 	padding: 20px;
-	display: inline-block;
-	border-radius: 20px;
+	border-radius: 15px;
 	color: white;
 	text-decoration: none;
-	margin-bottom: 20px;
+	margin-bottom: 0px;
 	background: #FF764E;
+	font-family: 'Roboto Mono', monospace;
+	font-size: 20px;
 }
+
 header nav a.learn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	width: 125px;
+	height: 20px;
 	margin: 0 10px;
 	padding: 20px;
-	display: inline-block;
-	border-radius: 20px;
+	border-radius: 15px;
 	color: white;
 	text-decoration: none;
-	margin-bottom: 20px;
+	margin-bottom: 0px;
 	background: #5ED3EB;
+	font-family: 'Roboto Mono', monospace;
+	font-size: 20px;
 }
+
 header nav a.involve {
+	display: flex;
+	align-items: center;
+	text-align: center;
+	width: 125px;
+	height: 20px;
 	margin: 0 10px;
 	padding: 20px;
-	display: inline-block;
-	border-radius: 20px;
+	border-radius: 15px;
 	color: white;
 	text-decoration: none;
-	margin-bottom: 20px;
+	margin-bottom: 0px;
 	background: #FFCD69;
+	font-family: 'Roboto Mono', monospace;
+	font-size: 20px;
+}
+
+#header {
+	height: 350px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+}
+
+#headerImage {
+	justify-content: center;
+	padding: 25px;
+}
+
+#headerText {
+	justify-content: center;
+}
+
+#headerTextHeader {
+	padding: 25px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#headerTextBody {
+	padding-left: 50px;
+	padding-right: 50px;
+	font-family: 'Roboto Mono', monospace;
+	display: flex;
+	flex-direction: column;
+}
+
+#headerTextBody p {
+	padding: 20px;
+	text-align: center;
+	font-weight: bolder;
+}
+
+#headerImage img {
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+}
+
+#bodyTop {
+	padding-left: 25px;
+	padding-right: 25px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	text-align: center;
+	background-color: #DDB9A3;
+	height: 150px;
+	font-size: 18px;
+	font-family: 'Roboto Mono', monospace;
+	color: white;
+}
+
+#bodyBottom {
+	display: flex;
+	flex-direction: column;
+	font-family: 'Roboto Mono', monospace;
+	font-size: 12px;
+}
+
+#bodyBottom img {
+	align-self: center;
+	width: 100px;
+	height: 100px;
+}
+
+#bodyBottom p {
+	text-align: center;
+}
+
+#bodyBottom {
+	height: 550px;
+	justify-content: space-around;
+}
+
+.textBold {
+	font-weight: bold;
+}
+
+footer {
+	background-color: #F9E7DC;
+	box-shadow: 5px 5px;
+}
+
+footer img {
+	width: 1100px;
+	height: 250px;
+}
+
+footer nav {
+	height: 125px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+footer nav a.plan{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	width: 125px;
+	height: 20px;
+	margin: 0 10px;
+	padding: 20px;
+	border-radius: 15px;
+	color: white;
+	text-decoration: none;
+	margin-bottom: 0px;
+	background: #FF764E;
+	font-family: 'Roboto Mono', monospace;
+	font-size: 20px;
+}
+
+footer nav a.learn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	width: 125px;
+	height: 20px;
+	margin: 0 10px;
+	padding: 20px;
+	border-radius: 15px;
+	color: white;
+	text-decoration: none;
+	margin-bottom: 0px;
+	background: #5ED3EB;
+	font-family: 'Roboto Mono', monospace;
+	font-size: 20px;
+}
+
+footer nav a.involve {
+	display: flex;
+	align-items: center;
+	text-align: center;
+	width: 125px;
+	height: 20px;
+	margin: 0 10px;
+	padding: 20px;
+	border-radius: 15px;
+	color: white;
+	text-decoration: none;
+	margin-bottom: 0px;
+	background: #FFCD69;
+	font-family: 'Roboto Mono', monospace;
+	font-size: 20px;
 }
